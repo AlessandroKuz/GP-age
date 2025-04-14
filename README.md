@@ -34,8 +34,11 @@ pip install scipy==1.7.0
 One could also install the environment using [`uv`](https://docs.astral.sh/uv/)(version 0.6.9 at the time of writing)
 with the following commands:
 
-1. Install the environment with: `uv venv --python==3.9`
-2. Activate the environment:
+1. Install the environment with:
+    ```bash
+    uv venv --python==3.9
+    ```
+3. Activate the environment:
     - IF on Windows:
         ```powershell
         .\.venv\Scripts\activate
@@ -44,7 +47,7 @@ with the following commands:
         ```bash
         source ./.venv/bin/activate
         ```
-3. Install the dependencies:
+4. Install the dependencies:
     ```bash
     uv pip install matplotlib==3.4.1
     uv pip install pandas==1.3.5
@@ -57,7 +60,7 @@ with the following commands:
     ```bash
     uv pip install -r requirements.txt
     ```
-4. You're good to go! You can run GP-age.
+5. You're good to go! You can run GP-age.
 
 ## Installation
 
